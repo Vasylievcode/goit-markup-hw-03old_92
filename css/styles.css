@@ -15,10 +15,10 @@
 .page-header {
     border-bottom: 1px solid #e7e9fc
 }
-.nav-header {
+.page-header .nav-header {
     display: flex;
     width: 1158px;
-    padding: 0 15px;
+    padding: 0 15px 0 15px;
 }
     body {
     background-color: #ffffff;

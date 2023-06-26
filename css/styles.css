@@ -145,16 +145,12 @@ body {
 .section-footer {
   color: #4d5ae5;
   background-color: #2e2f42;
-  padding: 20px;
-  text-align: center;
 }
 .section-footer .logo-header-link {
   color: #f4f4fd;
 }
 .footer-text {
   color: #f4f4fd;
-  font-size: 14px;
-  margin-top: 10px;
 }
 
 .btn-nav {
@@ -217,9 +213,6 @@ img {
   display: block;
 }
 .site-nav-list{
-    list-style: none;
-    margin: 0;
-    padding: 0;
     display: flex;
   gap: 40px;
 }
@@ -235,12 +228,4 @@ img {
   }
   .team-member-info {
     padding: 32px 16px;
-  }
-  .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .btn-list li {
-    margin-right: 10px;
   }

@@ -25,8 +25,8 @@ body {
   border-bottom: 1px solid #e7e9fc;
 }
 .nav-header {
+    display: flex;
   align-items: center;
-  display: flex;
 }
 .logo-header-link {
   font-family: "Raleway", sans-serif;
@@ -175,8 +175,10 @@ body {
   text-decoration: none;
 }
 .address-site {
+    display: flex;
   font-style: normal;
   list-style: none;
+
 }
 .logo-footer-link {
   color: #4d5ae5;
@@ -203,4 +205,11 @@ body {
 }
 img {
   display: block;
+}
+.site-nav-list{
+    display: flex;
+  gap: 40px;
+}
+.site-nav-list li:last-child {
+    margin-right: 0;
 }

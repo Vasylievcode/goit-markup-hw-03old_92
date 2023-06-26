@@ -12,6 +12,9 @@
 *::after {
     box-sizing: border-box;
 }
+.page-header {
+    border-bottom: 1px solid #e7e9fc
+}
     body {
     background-color: #ffffff;
     font-family: 'Roboto', sans-serif;

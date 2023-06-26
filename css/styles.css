@@ -7,6 +7,11 @@
     --accent-pressed-state: #404BBF;
     --color-bg-team: #F4F4FD;
     }
+    *,
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
     body {
     background-color: #ffffff;
     font-family: 'Roboto', sans-serif;

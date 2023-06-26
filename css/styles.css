@@ -15,7 +15,7 @@
 .page-header {
     border-bottom: 1px solid #e7e9fc
 }
-.nav-header {
+.container .nav-header {
     display: flex;
     width: 1158px;
 }

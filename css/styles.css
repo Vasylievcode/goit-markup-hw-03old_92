@@ -170,6 +170,7 @@
     .address-site {
         font-style:normal;
         list-style: none;
+        display: flex;
     }
     .logo-footer-link {
         color:#4d5ae5;

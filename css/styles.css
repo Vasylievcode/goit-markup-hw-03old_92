@@ -94,6 +94,10 @@ body {
   letter-spacing: 0.04em;
   text-align: center;
   cursor: pointer;
+  display: block; 
+  min-width: 169px;
+  height: 56px ;
+  border: none;
 }
 .btn-banner:hover,
 .btn-banner:focus {

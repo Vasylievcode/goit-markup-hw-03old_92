@@ -113,6 +113,7 @@ body {
   text-transform: capitalize;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 72px;
 }
 
 .features-list .card-title {
@@ -122,9 +123,11 @@ body {
 
 .section-title-team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .our-team-list {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
 }
 .card-title {
   color: #2e2f42;
@@ -132,9 +135,12 @@ body {
   font-size: 20px;
   line-height: 1.2em;
   letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .section-team-text {
   color: #434455;
+  text-align: center;
 }
 .section-footer {
   color: #4d5ae5;
@@ -213,3 +219,13 @@ img {
 .site-nav-list li:last-child {
     margin-right: 0;
 }
+.our-team {
+    display: flex;
+    gap: 24px;
+  }
+  .our-team-list:last-child {
+    margin-right: 0;
+  }
+  .team-member-info {
+    padding: 32px 16px;
+  }

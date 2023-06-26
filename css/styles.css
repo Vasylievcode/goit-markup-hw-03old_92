@@ -15,6 +15,10 @@
 .page-header {
     border-bottom: 1px solid #e7e9fc
 }
+.nav-header {
+    display: flex;
+    width: 1158px;
+}
     body {
     background-color: #ffffff;
     font-family: 'Roboto', sans-serif;

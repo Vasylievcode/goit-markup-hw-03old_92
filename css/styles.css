@@ -22,6 +22,7 @@ body {
   color: #434455;
 }
 .page-header {
+  display: flex;
   border-bottom: 1px solid #e7e9fc;
 }
 .nav-header {
@@ -259,4 +260,14 @@ img {
   }
   .card-title {
     margin-bottom: 8px;
+  }
+  .container {
+    width: 1158px;
+  }
+  .site-nav-address li {
+    padding: 24px 0; 
+    margin-right: 40px;
+  }
+  .site-nav-address li:last-child {
+    margin-right: 0;
   }

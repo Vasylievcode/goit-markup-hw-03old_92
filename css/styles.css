@@ -217,6 +217,8 @@ body {
   letter-spacing: 0.03em;
   text-decoration-line: none;
   text-transform: uppercase;
+  display: inline-block; 
+  margin-bottom: 16px;
 }
 .span-class {
   color: #f4f4fd;
@@ -278,9 +280,7 @@ img {
   .footer-text {
     margin-bottom: 16px;
   }
-  .logo-footer-port {
-    display: inline-block; 
-  }
+  
   .section-footer {
     padding: 100px 0;
   }
@@ -307,3 +307,4 @@ img {
   .nav-header .link {
     padding: 24px 0;
   }
+ 

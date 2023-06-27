@@ -284,3 +284,7 @@ img {
     padding-top: 96px; 
     padding-bottom: 120px;
   }
+
+  .page-header > .container {
+    display: flex;
+  }

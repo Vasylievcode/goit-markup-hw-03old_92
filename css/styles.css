@@ -149,7 +149,13 @@ body {
   font-weight: 500;
   font-size: 20px;
 }
-
+.features-list{
+  display: flex;
+  justify-content: center;
+}
+.features-list-item {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
 .section-title-team {
   background-color: #f4f4fd;
   padding: 120px 0;

@@ -280,3 +280,7 @@ img {
   .section-footer {
     padding: 100px 0;
   }
+  .section-nav-gallery {
+    padding-top: 96px; 
+    padding-bottom: 120px;
+  }

@@ -142,7 +142,7 @@ body {
   text-transform: capitalize;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-bottom: 72px;
+  margin-bottom:  0 auto 72px;
 }
 
 .features-list .card-title {
@@ -353,6 +353,7 @@ img {
 }
 .what-we-doing-card {
   flex-basis: calc((100% - 2 * 24) / 3);
+  max-height: 300px;
 }
 .header-two {
   font-weight: 700;

@@ -7,11 +7,30 @@
   --accent-pressed-state: #404bbf;
   --color-bg-team: #f4f4fd;
 }
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
 body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;

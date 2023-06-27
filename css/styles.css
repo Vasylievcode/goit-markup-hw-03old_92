@@ -288,8 +288,9 @@ img {
 
   .page-header > .container {
     display: flex;
-    margin: 0 auto;
-    padding: 0 15px;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
   }
   .site-nav-address {
     display: flex;

@@ -310,3 +310,9 @@ img {
  .section-features {
   padding: 120px 0;
  }
+ .section-features .container {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}

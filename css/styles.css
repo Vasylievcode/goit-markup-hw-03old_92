@@ -349,7 +349,7 @@ img {
   padding: 0 15px;
 }
 .what-we-doing {
-  padding-bottom: 120px;
+  display: flex;
 }
 .what-we-doing-card {
   flex-basis: calc((100% - 2 * 24) / 3);

@@ -142,7 +142,7 @@ body {
   text-transform: capitalize;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-bottom:  0 auto 72px;
+  margin-bottom: 72px; 
 }
 
 .features-list .card-title {

@@ -28,6 +28,8 @@ body {
 .nav-header {
     display: flex;
   align-items: center;
+  display: flex;
+  gap: 40px;
 }
 .logo-header-link {
   font-family: "Raleway", sans-serif;
@@ -56,6 +58,7 @@ body {
 .link {
   text-decoration-line: none;
 }
+
 .link:hover {
   color: #4d5ae5;
 }
@@ -300,4 +303,7 @@ img {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+  }
+  .nav-header .link {
+    padding: 24px 0;
   }
